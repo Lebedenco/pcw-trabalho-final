@@ -48,7 +48,7 @@ Atividade proposta como trabalho final da disciplina de Padrões para Conteúdos
     <tbody align="center">
         <tr>
             <td>Envio de Arquivo</td>
-            <td>-, -- de junho de 2025, --:--</td>
+            <td>quinta-feira, 12 de junho de 2025, 06:06</td>
             <td>Aguardando avaliação (10,00)</td>
             <td>10%</td>
             <td>Aguardando avaliação (1,00)</td>

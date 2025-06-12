@@ -1,0 +1,139 @@
+:root {
+  --light: white;
+  --warn: rgb(245, 110, 110);
+
+  --primary: lightpink;
+  --secondary: aliceblue;
+  --tertiary: antiquewhite;
+  --tertiary-100: rgb(237, 211, 188);
+
+  --bg-primary: rgb(123, 193, 255);
+  --bg-secondary: rgb(82, 174, 255);
+
+  --shadow-primary: rgba(252, 217, 255, 0.5);
+  --shadow-secondary: rgba(252, 217, 255, 0.75);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+
+  background-color: var(--bg-primary);
+}
+
+a {
+  color: black;
+
+  text-decoration: none;
+}
+
+button {
+  padding: 0.5rem;
+
+  align-self: flex-end;
+
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 600;
+
+  background-color: var(--primary) !important;
+
+  border: 0;
+  border-radius: 6px;
+
+  box-shadow: 0px 0px 8px 2px var(--shadow-primary);
+
+  transition: all 0.2s;
+}
+
+button:hover {
+  color: var(--light);
+  background-color: var(--bg-secondary) !important;
+
+  transform: scale(1.15);
+  transform: translate(-2px, 0);
+
+  cursor: pointer;
+}
+
+img {
+  width: 5rem;
+  height: 5rem;
+
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px 2px var(--shadow-primary);
+
+  transition: all 0.2s;
+}
+
+img:hover {
+  transform: scale(1.15);
+  translate: 0 -5px;
+
+  box-shadow: -1px 4px 8px 2px var(--shadow-secondary);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* --- Navbar --- */
+
+#navbar {
+  padding: 0 0.25rem;
+
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+
+  justify-content: space-around;
+  background-color: var(--primary);
+
+  box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.175);
+}
+
+#title {
+  font-weight: 700;
+
+  justify-self: flex-start;
+}
+
+#navbar a {
+  font-weight: 500;
+  cursor: pointer;
+}
+
+#navbarLinkGroup {
+  display: flex;
+  gap: 2rem;
+}
+
+.navbarLink {
+  padding: 1rem;
+  transition: all 0.1s;
+}
+
+.navbarLink:hover {
+  transform: translate(2px, -1px);
+
+  border-radius: 8px;
+  background-color: var(--bg-secondary);
+  box-shadow: 0px 0px 4px 4px rgb(131, 150, 255, 0.25);
+  color: white;
+}
+
+/* --- Card --- */
+
+.card {
+  background-color: var(--secondary);
+  border-radius: 8px;
+
+  box-shadow: 0px 0px 8px 2px var(--shadow-primary);
+}
